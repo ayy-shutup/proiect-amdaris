@@ -1,0 +1,32 @@
+div#card-bg {
+    width: 225px;
+    height: 297px;
+    background-color: #D1E7E0;
+    padding: 0;
+}
+#image img {
+    width: 212px;
+    height: 224px;
+    background-color: #bc817b4c;
+    margin: 7px 6.5px 0;
+    border-radius: 6px 6px 28px 28px;
+    object-fit: cover;
+}
+
+div#card-bg:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name {
+    background-color: #BC827B;
+    max-width: 212px;
+    height: 56px;
+    min-height: min-content;
+    margin: -10px 6.5px 0 6.5px;
+    border-radius: 28px 28px 0 0;   
+    text-align: center;
+}
+
+p {
+    padding: 14px;
+}
