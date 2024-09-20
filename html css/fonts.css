@@ -1,0 +1,23 @@
+.gluten-logo {
+    font-family: "Gluten", cursive;
+    font-optical-sizing: auto;
+    font-weight: 366;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" -1;
+    font-size: 30px;
+}
+
+.afacad-font {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.playpen-sans-header {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
