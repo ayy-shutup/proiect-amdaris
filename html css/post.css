@@ -1,0 +1,23 @@
+body {
+    background-color: #FFE7DE;
+}
+
+#post {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 0 10px;
+}
+
+legend {
+    margin-left: 30px;
+    padding: 10px 10px 0;
+    background-color: #BC827B;
+}
+#info {
+    margin: 0;
+    padding: 0 10px;
+    background-color: #BC827B;
+    display: flex;
+    flex-direction: row;
+}
