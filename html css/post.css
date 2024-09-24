@@ -3,16 +3,20 @@ body {
 }
 
 #post {
+    margin: 10px 0 0 180px;
     display: flex;
     flex-direction: column;
     background-color: white;
     padding: 0 10px;
+    max-width: 700px;
 }
 
 legend {
     margin-left: 30px;
-    padding: 10px 10px 0;
+    padding: 7px 15px 0;
     background-color: #BC827B;
+    color: white;
+    font-size: 25px;
 }
 #info {
     margin: 0;
@@ -20,4 +24,10 @@ legend {
     background-color: #BC827B;
     display: flex;
     flex-direction: row;
+    color: white;
+    font-size: 14px;
+}
+
+.one {
+    margin-right: 84%;
 }
