@@ -1,33 +1,66 @@
-body {
-    background-color: #FFE7DE;
-}
-
 #post {
     margin: 10px 0 0 180px;
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 0 10px;
-    max-width: 700px;
+    padding: 0;
+    max-width: 650px;
+    border: whitesmoke;
+    border-radius: 33px;
 }
 
 legend {
+    position: relative;
+    margin-bottom: -15px;
     margin-left: 30px;
-    padding: 7px 15px 0;
+    padding: 10px 20px 0;
     background-color: #BC827B;
     color: white;
     font-size: 25px;
+    z-index: 2;
+    border-radius: 33px 33px 0 0;
 }
 #info {
-    margin: 0;
-    padding: 0 10px;
+    position: relative;
+    margin: -10px 0 0;
+    padding: 5px 10px 5px 25px;
     background-color: #BC827B;
     display: flex;
     flex-direction: row;
     color: white;
     font-size: 14px;
+    z-index: 0;
+    border-radius: 33px;
 }
 
 .one {
-    margin-right: 84%;
+    margin-right: 64%;
+}
+
+#content { 
+    margin: 10px 20px 10px 80px;
+}
+
+
+#lc {
+    margin: 10px 20px 10px 40px;
+
+}
+
+hr {
+    width: 90%;
+    border: 0.3px solid rgba(0, 0, 0, 0.2);
+}
+
+p {
+    width: 80%;
+}
+
+.title {
+    margin: 15px 0 -10px -25px;
+    font-size: 25px;
+}
+
+.likes {
+    margin-right: 20px;
 }
