@@ -15,6 +15,7 @@
 
 hr {
   width: 90%;
+  border: 0.3px solid rgba(0, 0, 0, 0.2);
 }
 
 #ccontent {
