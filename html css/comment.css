@@ -1,0 +1,26 @@
+#comment {
+  width: 360px;
+  min-height: 130px;
+  max-height: min-content;
+  background-color: #FFF6F4;
+  border-radius: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+#username {
+  padding: 20px 0 0 60px;
+}
+
+hr {
+  width: 90%;
+}
+
+#ccontent {
+  padding: 0 25px 10px;
+  text-indent: 20px;
+}
+
+#likes {
+  padding: 0 40px 20px;
+}
