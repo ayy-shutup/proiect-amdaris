@@ -1,0 +1,62 @@
+.discover-page {
+    background-color: #f2ebe5;
+    padding: 40px;
+  }
+  
+  .discover-page h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333333;
+  }
+  
+  .discover-page .filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .discover-page .filter select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .discover-page .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .discover-page .recipe-card {
+    background-color: #d49b88;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .discover-page .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .discover-page .recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .discover-page .recipe-card h3 {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+  }
+  
+  .discover-page .recipe-card p {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+  

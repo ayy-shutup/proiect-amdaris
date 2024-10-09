@@ -1,0 +1,58 @@
+.create-recipe-page {
+    background-color: #f2ebe5;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create-recipe-page h1 {
+    font-size: 36px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .create-recipe-page form {
+    background-color: #f7f1ed;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .create-recipe-page form input, 
+  .create-recipe-page form textarea, 
+  .create-recipe-page form select {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-recipe-page form button {
+    background-color: #e34333;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .create-recipe-page form button:hover {
+    background-color: #d33c29;
+  }
+  
+  .create-recipe-page .ingredients, 
+  .create-recipe-page .instructions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .create-recipe-page .ingredients textarea, 
+  .create-recipe-page .instructions textarea {
+    width: 48%;
+  }
+  

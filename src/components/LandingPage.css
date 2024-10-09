@@ -1,0 +1,68 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2ebe5; /* Light beige background */
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+  }
+  
+  .landing-page .header {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .landing-page .header h1 {
+    font-size: 48px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  .landing-page .header h2 {
+    font-size: 18px;
+    color: #777777;
+    margin-top: -10px;
+  }
+  
+  .landing-page .discover-button, .landing-page .share-button {
+    background-color: #b54e3c; /* Red button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .landing-page .share-button {
+    background-color: #e34333; /* Slightly different red shade */
+  }
+  
+  .landing-page .image-card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+  }
+  
+  .landing-page .card {
+    background-color: #d49b88; /* Light muted pink */
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .landing-page .card h3 {
+    color: white;
+    font-size: 20px;
+  }
+  
