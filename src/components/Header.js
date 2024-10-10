@@ -9,7 +9,7 @@ const Header = () => {
     <header id="header">
       <span className="logo">
         <img src="logo.webp" />
-        <p className="gluten-logo">LOGO</p>{" "}
+        <p className="gluten-logo">SAVORLY</p>{" "}
       </span>
       <span
         className="header-button playpen-sans-header"

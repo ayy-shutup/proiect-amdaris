@@ -1,58 +1,111 @@
+/* CreateRecipePage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  font-family: 'Poppins', sans-serif; /* Modern font for a fresh look */
+  margin: 0;
+  padding: 0;
+}
+
 .create-recipe-page {
-    background-color: #f2ebe5;
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .create-recipe-page h1 {
-    font-size: 36px;
-    color: #333333;
-    margin-bottom: 20px;
-  }
-  
-  .create-recipe-page form {
-    background-color: #f7f1ed;
-    padding: 40px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 800px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .create-recipe-page form input, 
-  .create-recipe-page form textarea, 
-  .create-recipe-page form select {
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .create-recipe-page form button {
-    background-color: #e34333;
-    color: white;
-    padding: 15px 40px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .create-recipe-page form button:hover {
-    background-color: #d33c29;
-  }
-  
-  .create-recipe-page .ingredients, 
-  .create-recipe-page .instructions {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .create-recipe-page .ingredients textarea, 
-  .create-recipe-page .instructions textarea {
-    width: 48%;
-  }
-  
+  background-color: #fffaef; /* Warm light yellow background */
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Full page height */
+}
+
+.create-recipe-page h1 {
+  font-size: 42px; /* Large and inviting heading */
+  color: #A31621; /* Warm orange tone */
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.recipe-form {
+  background-color: #cc7460ad; /* Light background for the form */
+  padding: 40px;
+  border-radius: 15px; /* Rounded corners */
+  width: 100%; /* Full width of the container */
+  max-width: 700px; /* Limit the width */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  border: 1px solid #A31621; /* Border color */
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Styles for title and tags container */
+.title-tag-container {
+  display: flex; /* Flex container for title and tag inputs */
+  justify-content: space-between; /* Space between inputs */
+  align-items: stretch; /* Make inputs equal height */
+  margin-bottom: 20px; /* Margin below the inputs */
+  margin-right: 35px;
+}
+
+.recipe-title,
+.recipe-tags {
+  width: calc(50% - 10px); /* Set each input to take half the space */
+  padding: 15px; /* Padding for the inputs */
+  margin: 0; /* Remove margin for a better fit */
+  border: 2px solid #A31621; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fffaf0; /* Subtle off-white background */
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
+  transition: border 0.3s ease-in-out; /* Smooth border transition */
+}
+
+/* Ensure the inputs have equal heights */
+.recipe-title:focus,
+.recipe-tags:focus {
+  border-color: #A31621; /* Highlighted border on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Styles for input, textarea, and button */
+.recipe-form textarea {
+  width: calc(100% - 40px); /* Full width minus padding */
+  padding: 15px; /* Padding for the textareas */
+  margin: 15px 0; /* Vertical margin for spacing */
+  border: 2px solid #A31621; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fffaf0; /* Subtle off-white background */
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1); /* Inner shadow */
+  transition: border 0.3s ease-in-out; /* Smooth border transition */
+  min-height: 120px; /* Minimum height for textarea */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Set same height for ingredients and instructions */
+.ingredients, .instructions  {
+  min-height: 120px; /* Ensure both textareas have the same height */
+}
+
+/* Textarea focus styling */
+.recipe-form textarea:focus {
+  border-color: #A31621; /* Highlighted border on focus */
+  outline: none; /* Remove default focus outline */
+}
+
+/* Button styling */
+.recipe-form button {
+  background-color: #A31621; /* Bright red button */
+  color: white;
+  padding: 15px 50px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 30px; /* Pill shape */
+  cursor: pointer; /* Pointer on hover */
+  font-size: 18px; /* Button text size */
+  transition: background-color 0.3s ease-in-out; /* Smooth hover transition */
+  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3); /* Button shadow */
+}
+
+.recipe-form button:hover {
+  background-color: #A31621; /* Darker red on hover */
+}
+
+.recipe-form button:active {
+  transform: scale(0.98); /* Slight shrink on click */
+}

@@ -13,16 +13,20 @@ const LandingPage = () => {
         <button className="discover-button" onClick={goToDiscoverPage}>
           Discover new recipes
         </button>
-        <div className="empty-container"></div>
+        <div className="empty-container">
+          
+        </div>
       </section>
       <section className="main-content">
         <div className="recipes-preview">
-          <h1>VERY COOL HEADING</h1>
-          <p>With some subtext</p>
+          <h1>COOK SMARTER</h1>
+          <p>Food for you. By you.</p>
         </div>
       </section>
       <section className="side-content">
-        <div className="empty-container"></div>
+        <div className="empty-container">
+          
+       </div>
         <button
           className="share-button"
           onClick={() => {

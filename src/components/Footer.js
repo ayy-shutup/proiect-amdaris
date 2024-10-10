@@ -4,9 +4,9 @@ import "./Footer.css"; // Ensure styles match your existing HTML/CSS
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2023 Company Inc.</p>
+      <p>&copy; 2024 Savorly Inc.</p>
       <div className="line" />
-      <p>Contact us: support@company.com</p>
+      <p>Contact us: support@savorly.com</p>
     </footer>
   );
 };

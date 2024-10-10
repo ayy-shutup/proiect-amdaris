@@ -2,30 +2,35 @@
   background-image: url("../../public/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+ 
+  display:flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   background-color: #f2ebe5; /* Light beige background */
   font-family: "Poppins", sans-serif;
-  padding: 20px;
+  padding: 10px;
 }
+
 
 .landing-page .discover-button,
 .landing-page .share-button {
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
   width: 290px;
   height: 176px;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  opacity: 100%;
 }
 
 .landing-page .share-button {
   background: #A31621C2;
   margin-top: 20px;
+  opacity: 97%;
 }
 
 .landing-page .image-card {
@@ -57,6 +62,7 @@
 }
 
 .main-content {
+  
   width: 600px;
   height: 600px;
   display: flex;
@@ -67,7 +73,18 @@
   margin: 20px;
 }
 
-.recipes-preview, .recipes-preview p {
+.recipes-preview, .recipes-preview h1 {
+  font-family:cursive;
+  font-style:italic;
+  font-size: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+.recipes-preview, .recipes-preview p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
   width: 100%;
   text-align: center;
 }
