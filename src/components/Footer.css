@@ -1,0 +1,14 @@
+.footer {
+  background-color: #d1e7e0;
+  height: 164px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+    width: 1px;
+    height: 119px;
+    background-color: black;
+    margin: 0 60px;
+}

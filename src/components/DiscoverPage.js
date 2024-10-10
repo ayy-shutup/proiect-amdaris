@@ -6,13 +6,6 @@ const DiscoverPage = () => {
 
   return (
     <div className="discover-page">
-      <header>
-        <img src="/path-to-logo.png" alt="Logo" className="logo" />
-        <nav>
-          <button className="create-button">Create</button>
-          <button className="login-button">Login</button>
-        </nav>
-      </header>
       <section className="recipe-list">
         <input type="text" placeholder="Filter recipes by tag" className="filter-input" />
         <div className="recipe-grid">
@@ -25,10 +18,6 @@ const DiscoverPage = () => {
           ))}
         </div>
       </section>
-      <footer>
-        <p>&copy; 2023 Company Inc.</p>
-        <p>Contact us: support@company.com</p>
-      </footer>
     </div>
   );
 };

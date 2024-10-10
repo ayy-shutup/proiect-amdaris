@@ -13,13 +13,6 @@ const CreateRecipePage = () => {
 
   return (
     <div className="create-recipe-page">
-      <header>
-        <img src="/path-to-logo.png" alt="Logo" className="logo" />
-        <nav>
-          <button className="create-button">Create</button>
-          <button className="login-button">Login</button>
-        </nav>
-      </header>
       <section className="recipe-form">
         <input
           type="text"
@@ -39,10 +32,6 @@ const CreateRecipePage = () => {
         />
         <button onClick={handleCreateRecipe}>Save Recipe</button>
       </section>
-      <footer>
-        <p>&copy; 2023 Company Inc.</p>
-        <p>Contact us: support@company.com</p>
-      </footer>
     </div>
   );
 };
