@@ -12,8 +12,8 @@ const LandingPage = () => {
       <header>
         <img src="/path-to-logo.png" alt="Logo" className="logo" />
         <nav>
-          <button className="create-button">Create</button>
-          <button className="login-button">Login</button>
+          <button className="create-button" onClick={()=>{navigate("/create")}}>Create</button>
+          <button className="login-button" onClick={()=>{navigate("/create")}}>Login</button>
         </nav>
       </header>
       <section className="main-content">

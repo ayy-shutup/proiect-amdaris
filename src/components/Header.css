@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+#header {
+    width: calc(100% - 40px);
+    padding: 20px;
+    background-color: #FFF6F4;
+    height: calc(5em - 55px);
+    border-radius: 0 0 40px 40px;
+}
+
+.header-button {
+    float: inline-end;
+    padding: 8px 12px;
+    margin: -8px 0;
+    background-color: #A31621;
+    border-radius: 200px;
+    color: white;
+    transition-duration: 0.7s;
+}
+
+.header-button:hover {
+    background-color: #5c0e15;
+    transition-duration: 0.2s;
+}
+
+p {
+    margin: 0px 10px;
+    float: left;
+}
+
+img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: -7px;
+}
