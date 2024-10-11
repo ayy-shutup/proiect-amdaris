@@ -2,12 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-* {
-  box-sizing: border-box; /* Ensure padding and borders are included in the width */
-  font-family: 'Poppins', sans-serif; /* Modern font for a fresh look */
-  margin: 0;
-  padding: 0;
-}
+
 
 .create-recipe-page {
   background-color: #fffaef; /* Warm light yellow background */
@@ -42,7 +37,7 @@
   justify-content: space-between; /* Space between inputs */
   align-items: stretch; /* Make inputs equal height */
   margin-bottom: 20px; /* Margin below the inputs */
-  margin-right: 35px;
+  margin-right: px;
 }
 
 .recipe-title,
@@ -50,6 +45,7 @@
   width: calc(50% - 10px); /* Set each input to take half the space */
   padding: 15px; /* Padding for the inputs */
   margin: 0; /* Remove margin for a better fit */
+  margin-right: 30px ;
   border: 2px solid #A31621; /* Border color */
   border-radius: 8px; /* Rounded corners */
   background-color: #fffaf0; /* Subtle off-white background */
